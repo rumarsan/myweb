@@ -1,0 +1,228 @@
+<!DOCTYPE html>   
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Ruben Margallo</title>
+    <style>
+        /* Centrar elementos */
+        .centrar {
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        /* Imagen y mapa con ajuste al 100% del contenedor */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Estilos específicos para la imagen principal */
+        .imagen-principal {
+            display: block; /* Bloque para que tome todo el ancho disponible */
+            margin: 0 auto; /* Centramos horizontalmente la imagen */
+        }
+
+        /* Espaciado adicional */
+        .espaciado {
+            margin-bottom: 2em;
+        }
+
+        /* Centrar listas */
+        .listas {
+            text-align: center;
+        }
+
+        .listas ul,
+        .listas ol {
+            display: inline-block;
+            text-align: left;
+        }
+
+        /* Imagen alineada a la izquierda */
+        .alineada-izquierda {
+            float: left; /* Alinear imagen a la izquierda */
+            margin-right: 1em; /* Espacio a la derecha de la imagen */
+            margin-bottom: 2em; /* Espacio inferior para separar la imagen del contenido siguiente */
+        }
+
+        /* Imagen alineada a la derecha */
+        .alineada-derecha {
+            float: right; /* Alinear imagen a la derecha */
+            margin-left: 1em; /* Espacio a la izquierda de la imagen */
+            margin-bottom: 2em; /* Espacio inferior para separar la imagen del contenido siguiente */
+        }
+    </style>
+</head>
+<body>
+    <!-- Imagen principal centrada -->
+    <!-- Esta imagen representa un momento especial en la Plaza de España -->
+    <img src="https://img.freepik.com/fotos-premium/familia-plaza-espana-sevilla_620430-8818.jpg" 
+         alt="Familia disfrutando en la Plaza de España en Sevilla" 
+         class="imagen-principal espaciado" 
+         aria-label="Imagen principal de familia en la Plaza de España">
+
+    <!-- Contenedor principal para centrar todo -->
+    <div class="centrar" role="navigation">
+        <!-- Menú de navegación interna -->
+        <nav>
+            <ul style="display: inline-block; text-align: left;">
+                <li><a href="#introduccion" aria-label="Ir a la sección Introducción">Introduccion</a></li>
+                <li><a href="#elementos-naturales" aria-label="Ir a la sección Elementos Naturales">Elementos Naturales</a></li>
+                <li><a href="#tipos-arboles" aria-label="Ir a la sección Tipos de Árboles">Tipos de Arboles</a></li>
+                <li><a href="#animales" aria-label="Ir a la sección Animales">Animales</a></li>
+            </ul>
+        </nav>
+
+        <!-- Enlaces externos a sitios relacionados -->
+        <section>
+            <h3>Enlaces Externos sobre Parques Nacionales</h3>
+            <ul style="display: inline-block; text-align: left;">
+                <li><a href="https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales.html" target="_blank" aria-label="Página oficial de Parques Nacionales de España">Pagina oficial de Parques Nacionales de Espana</a></li>
+                <li><a href="https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/donana.html" target="_blank" aria-label="Parque Nacional de Doñana">Parque Nacional de Donana</a></li>
+                <li><a href="https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/monfrague.html" target="_blank" aria-label="Parque Nacional de Monfrague">Parque Nacional de Monfrague</a></li>
+                <li><a href="https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/picos-europa.html" target="_blank" aria-label="Parque Nacional de Picos de Europa">Parque Nacional de Picos de Europa</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Parque_nacional" target="_blank" aria-label="Wikipedia - Parques Nacionales">Wikipedia - Parques Nacionales</a></li>
+            </ul>
+        </section>
+
+        <!-- Sección de contenido principal -->
+        <h1 id="introduccion">Bienvenidos a la pagina de Ruben Margallo</h1>
+
+        <!-- Imagen añadida -->
+        <img src="https://sevillasecreta.co/wp-content/uploads/2015/10/shutterstock_152262449-1.jpg" alt="Vista de una imagen representativa del Parque de Maria Luisa en Sevilla" class="espaciado" aria-label="Imagen representativa del Parque de Maria Luisa">
+
+        <p>Estas primeras lineas se escribieron el <u>lunes 23 de diciembre de 2024</u>. Este sitio esta construido para compartir mis progresos y aprendizajes.</p>
+
+        <p class="espaciado"></p>
+
+        <!-- Título y Mapa Interactivo del Parque de María Luisa -->
+        <h2 class="espaciado">Mapa Interactivo del Parque de Maria Luisa</h2>
+        <img src="https://jardineriaypaisajismo.es/wp-content/uploads/2014/10/plano-Parque-Maria-Luisa.jpg" alt="Mapa del Parque de María Luisa" usemap="#mapa_parque" class="espaciado" aria-label="Mapa interactivo del Parque de María Luisa">
+
+        <map name="mapa_parque">
+            <!-- Ruta 1 -->
+            <area shape="rect" coords="81,82,278,175" href="https://es.wikipedia.org/wiki/Plaza_de_Espa%C3%B1a_(Sevilla)" target="_blank" alt="Ruta 1: Plaza de España">
+            <!-- Ruta 2 -->
+            <area shape="rect" coords="258,307,417,403" href="https://es.wikipedia.org/wiki/Glorieta_de_la_Concha_(Sevilla)" target="_blank" alt="Ruta 2: Glorieta de la Concha">
+            <!-- Ruta 3 -->
+            <area shape="rect" coords="292,204,440,264" href="https://sevillamisteriosyleyendas.com/monte-gurugu/" target="_blank" alt="Ruta 3: Monte Gurugu">
+        </map>
+
+        <!-- Nuevo espacio de 2 líneas -->
+        <p class="espaciado"></p>
+
+        <!-- Nuevo título centrado -->
+        <h2 class="espaciado">Video del Parque de Maria Luisa de Sevilla</h2>
+
+        <!-- Nuevo espacio de dos líneas -->
+        <p class="espaciado"></p>
+    </div>
+
+    <!-- Video introductorio del parque -->
+    <div style="text-align: center;" class="espaciado">
+        <iframe 
+            width="800" 
+            height="450" 
+            src="https://www.youtube.com/embed/URMGVaPinKc" 
+            title="Video introductorio del Parque de Maria Luisa" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen 
+            aria-label="Video introductorio del Parque de Maria Luisa">
+        </iframe>
+    </div>
+
+    <!-- Nuevo espacio de 3 líneas -->
+    <p class="espaciado"></p>
+    <p class="espaciado"></p>
+    <p class="espaciado"></p>
+
+    <!-- Imagen alineada a la izquierda -->
+    <!-- Esta imagen ilustra detalles adicionales del Parque de María Luisa -->
+    <img src="https://multimedia.andalucia.org/fotos/image_249806.jpeg" 
+         alt="Detalle del Parque de María Luisa en Sevilla" 
+         class="alineada-izquierda" 
+         aria-describedby="detalles adicionales del Parque de María Luisa">
+
+    <!-- Reproductor de audio -->
+    <div style="text-align: center;" class="espaciado">
+        <iframe 
+            src="https://www.ivoox.com/player_ej_19538717_6_1.html?c1=fca318" 
+            width="100%" 
+            height="200" 
+            frameborder="0" 
+            allowfullscreen="" 
+            scrolling="no" 
+            loading="lazy" 
+            aria-label="Reproductor de audio de un contenido relacionado con el Parque de María Luisa">
+        </iframe>
+    </div>
+
+    <!-- Sección de contenido restaurada -->
+    <div class="listas">
+        <h2 id="elementos-naturales" class="espaciado">Elementos Naturales</h2>
+        <p><b>Emocionado</b> de como han avanzado mis proyectos. Cada dia aprendo algo nuevo que me permite crecer tanto personal como profesionalmente.</p>
+        <p>La <b>motivacion</b> y el <i>esfuerzo</i> son fundamentales para alcanzar cualquier meta. Es importante dedicar <u>tiempo</u> y constancia a tus objetivos.</p>
+
+        <h3>Elementos en un Parque</h3>
+        <p>Los parques estan llenos de <i>elementos naturales</i> que podemos observar y disfrutar. A continuacion, organizo algunos de ellos en listas para entenderlos mejor.</p>
+        <ul>
+            <li>Arboles</li>
+            <li>Flores</li>
+            <li>Aves</li>
+            <li>Insectos</li>
+            <li>Arbustos</li>
+        </ul>
+
+        <h3 id="tipos-arboles">Tipos de Arboles</h3>
+        <ol>
+            <li>Coniferas</li>
+            <li>Caducifolios</li>
+            <li>Perennes</li>
+            <li>Frutales</li>
+            <li>Ornamentales</li>
+        </ol>
+
+        <h4 id="animales" class="espaciado">Animales</h4>
+        <ul class="listas">
+            <li>Aves
+                <ul>
+                    <li>Gorriones</li>
+                    <li>Palomas</li>
+                    <li>Cuervos</li>
+                </ul>
+            </li>
+            <li>Insectos
+                <ul>
+                    <li>Mariposas</li>
+                    <li>Hormigas</li>
+                    <li>Abejas</li>
+                </ul>
+            </li>
+            <li>Mamiferos
+                <ul>
+                    <li>Ardillas</li>
+                    <li>Murcielagos</li>
+                    <li>Ratas</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Footer centrado -->
+    <footer> 
+        <p style="text-align: center;" aria-label="Footer">Copyright 2024 - Creado por Ruben Margallo</p>
+    </footer>
+
+    <!-- Espacio de 3 líneas -->
+    <div style="height: 3em;"></div>
+
+    <!-- Imagen alineada a la derecha añadida -->
+    <!-- Esta imagen ilustra un detalle adicional relacionado con el Parque de María Luisa -->
+    <img src="https://i.pinimg.com/originals/b9/35/e6/b935e6e82a5b9ae86ddc765da8d4cccf.jpg" 
+         alt="Una vista espectacular de un parque con árboles en otoño" 
+         class="alineada-derecha" 
+         aria-label="Detalle visual del Parque de María Luisa en otoño">
+</body>
+</html>
